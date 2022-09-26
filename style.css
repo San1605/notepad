@@ -28,7 +28,6 @@
     height: 95vh;
     width: 20vw;
     flex-direction: column;
-    width: 30rem;
     float: left;
     overflow: auto;
     /* border: 1px solid black; */
@@ -65,7 +64,7 @@
 
 .navbar {
 
-    display: block;
+    display: inline-block;
     /* width: 80vw; */
     height: 5vh;
     align-items: center;
@@ -82,6 +81,7 @@
     color: none;
 }
 #fontstyle{
+    display: inline-block;
     background-color: rgb(190, 219, 244);
     width: 15rem;
     height: 3rem;
@@ -93,6 +93,7 @@
 
 
 #fontsize{
+    display: inline-block;
     background-color: rgb(190, 219, 244);
     margin-left: 1rem;
     width: 5rem;
