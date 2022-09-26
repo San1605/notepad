@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="text" id="texty">
+        
+        
+        <div class="box">
+            <div class="left">
+                <h1 class="heading">Files:-</h1>
+                <div id="list">
+        
+                </div>
+            </div>
+            <div class="right">
+        
+        <div class="navbar">
+            <button onclick="createfile()" id="open"><i class="fa fa-folder-open" aria-hidden="true"></i></button>
+            <button onclick="saveTextAsFile()"><i class="fa fa-download" aria-hidden="true"></i> </button>
+            <button onclick="savefile()"><i class="fa fa-floppy-o" aria-hidden="true"></i></button>
+            <!-- <button onclick="paste()"><i class="fa fa-clipboard" aria-hidden="true"></i></button> -->
+
+            <button onclick="copy()" id="copybtn"><i class="fa fa-clone" aria-hidden="true"></i></button>
+
+
+            <select id="fontstyle" onchange="changefont(this)">
+                <option value="Arial">Arial</option>
+                <option value="Verdana">Verdana</option>
+                <option value="Tahoma">Tahoma</option>
+                <option value="Trebuchet MS">Trebuchet MS</option>
+                <option value="Times New Roman">Times New Roman</option>
+                <option value="Georgia">Georgia</option>
+                <option value="Garamond ">Garamond </option>
+                <option value="Courier New">Courier New </option>
+                <option value="Brush Script MT">Brush Script MT</option>
+
+
+
+            </select>
+            <select id="fontsize" onchange="changesize(this)">
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="16">16</option>
+                <option value="18">18</option>
+                <option value="20">20</option>
+                <option value="22">22</option>
+                <option value="24">24</option>
+                <option value="26">26</option>
+                <option value="28">28</option>
+                <option value="36">36</option>
+                <option value="48">48</option>
+            </select>
+            <button onclick="boldtext()" id="boldbtn"><i class="fa fa-bold" aria-hidden="true"></i></button>
+            <button onclick="italic()" id="italicbtn"><i class="fa fa-italic" aria-hidden="true"></i></button>
+            <!-- <button><i class="fa fa-font" aria-hidden="true"></i></button> -->
+
+            <button onclick="underline()" id="underline"><i class="fa fa-underline" aria-hidden="true"></i></button>
+            <!-- <button id="undo"><i class="fa fa-undo" aria-hidden="true"></i></button>
+            <button id="redo"><i class="fa fa-repeat" aria-hidden="true"></i></button>
+            <button onclick="zoomin" id="zoomIN"><i class="fa fa-search-plus" aria-hidden="true"></i></button>
+            <button onclick="zoomout" id="zoomOut"><i class="fa fa-search-minus" aria-hidden="true"></i></button> -->
+            <button onclick="reset()"><i class="fa fa-refresh" aria-hidden="true"></i></i></button>
+            <!-- <button><i class="fa-solid fa-moon " aria-hidden="true"></i></button> -->
+
+        </div>
+
+                <div contenteditable="true" id="content" class="textarea">
+                    <!-- <textarea contenteditable="true" class="right" name="" id="content" cols="30" rows="10" class="textarea"></textarea> -->
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>

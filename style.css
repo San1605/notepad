@@ -1,0 +1,129 @@
+*{
+    padding: 0;;
+    margin: 0;
+    /* background-color: rgb(0, 136, 255); */
+}
+
+
+.text {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    background-color: rgb(190, 219, 244);
+    padding: 3rem;
+}
+
+.box{
+       /* margin-top: 1%; */
+    display: flex;
+    flex-direction: row;
+   
+    /* justify-content: space-between; */
+}
+
+
+.left{
+    display: flex;
+    height: 95vh;
+    width: 20vw;
+    flex-direction: column;
+    width: 30rem;
+    float: left;
+    overflow: auto;
+    /* border: 1px solid black; */
+    /* background-color: aqua; */
+}
+
+.right{
+    /* background-color: azure; */
+      display: flex; 
+      flex-direction: column;
+      height: 95vh;
+      width: 80vw;
+      /* justify-content: center; */
+      /* align-items: center; */
+      /* flex-wrap: wrap;
+      overflow: scroll;
+      background-color: white;
+      font-size: 3rem;
+      border: 2px solid black; */
+    }
+
+.textarea{
+      height: 90vh;  
+      max-width: 80vw;
+      overflow-y: auto;
+      flex-wrap:nowrap;
+      background-color: white;
+      font-size: 3rem;
+      border-radius: 20px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+    
+
+
+.navbar {
+
+    display: block;
+    /* width: 80vw; */
+    height: 5vh;
+    align-items: center;
+}
+
+.navbar button {
+    cursor: pointer;
+    /* padding-left: 1rem; */
+    margin-left: 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+    border: none;
+    background-color: rgb(190, 219, 244);
+    color: none;
+}
+#fontstyle{
+    background-color: rgb(190, 219, 244);
+    width: 15rem;
+    height: 3rem;
+    font-size: 2rem;
+    margin-left: 1rem;
+    /* border: none; */
+    
+}
+
+
+#fontsize{
+    background-color: rgb(190, 219, 244);
+    margin-left: 1rem;
+    width: 5rem;
+    height: 3rem;
+    font-size: 2rem;
+    /* border: ; */
+}
+
+
+option{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+.heading{
+    display: block;
+    margin-top: 1rem;
+margin-bottom: 1rem;
+font-size: 3rem;
+}
+
+.newnote{
+    margin-top: 1rem;
+    height: 4vh;
+    width: 15vw;
+    font-size: 2rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: black;
+    background-color: rgb(190, 219, 244);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
