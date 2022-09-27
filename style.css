@@ -6,12 +6,11 @@
 
 
 .text {
+    min-height: 100vh;
+    width: 100%;
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
-    flex-direction: column;
+    /* flex-direction: column; */
     background-color: rgb(190, 219, 244);
-    padding: 3rem;
 }
 
 .box{
@@ -28,25 +27,18 @@
     height: 95vh;
     width: 20vw;
     flex-direction: column;
-    float: left;
+    /* float: left; */
     overflow: auto;
-    /* border: 1px solid black; */
-    /* background-color: aqua; */
 }
 
 .right{
     /* background-color: azure; */
       display: flex; 
       flex-direction: column;
+      justify-content: space-around;
       height: 95vh;
       width: 80vw;
-      /* justify-content: center; */
-      /* align-items: center; */
-      /* flex-wrap: wrap;
-      overflow: scroll;
-      background-color: white;
-      font-size: 3rem;
-      border: 2px solid black; */
+      overflow: auto;
     }
 
 .textarea{
@@ -55,50 +47,54 @@
       overflow-y: auto;
       flex-wrap:nowrap;
       background-color: white;
-      font-size: 3rem;
+      font-size: 30px;
       border-radius: 20px;
       box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     }
-    
 
 
 .navbar {
 
-    display: inline-block;
+    display: inline-flex;
     /* width: 80vw; */
     height: 5vh;
     align-items: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
-.navbar button {
+
+button {
     cursor: pointer;
-    /* padding-left: 1rem; */
-    margin-left: 2rem;
-    font-size: 2rem;
+    margin-left: 30px;
     text-decoration: none;
     border: none;
     background-color: rgb(190, 219, 244);
     color: none;
+}  
+
+.fa {
+    font-size: x-large;
 }
+
 #fontstyle{
     display: inline-block;
     background-color: rgb(190, 219, 244);
     width: 15rem;
     height: 3rem;
-    font-size: 2rem;
+    font-size: 1rem;
     margin-left: 1rem;
-    /* border: none; */
     
 }
 
 
 #fontsize{
-    display: inline-block;
+    display: inline-flexbox;
     background-color: rgb(190, 219, 244);
     margin-left: 1rem;
     width: 5rem;
     height: 3rem;
-    font-size: 2rem;
+    font-size: 1rem;
     /* border: ; */
 }
 
@@ -114,17 +110,19 @@ option{
     display: block;
     margin-top: 1rem;
 margin-bottom: 1rem;
-font-size: 3rem;
+font-size: 2rem;
 }
 
 .newnote{
+
     margin-top: 1rem;
-    height: 4vh;
+    height: 7vh;
     width: 15vw;
-    font-size: 2rem;
+    font-size: 1rem;
     border: 1px solid black;
     border-radius: 20px;
     color: black;
     background-color: rgb(190, 219, 244);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
+
